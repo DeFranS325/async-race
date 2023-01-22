@@ -1,0 +1,15 @@
+.footer-garage {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    gap: 1rem;
+}
+
+.prev-page,
+.next-page {
+    width: 6rem;
+    height: 1.7rem;
+    cursor: pointer;
+}

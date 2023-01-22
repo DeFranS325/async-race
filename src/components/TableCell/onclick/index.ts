@@ -1,0 +1,1 @@
+export { clickSort } from './clickSort'

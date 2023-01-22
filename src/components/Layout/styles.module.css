@@ -1,0 +1,17 @@
+.body {
+  display: grid;
+  grid-template-areas: "header"
+    "main"
+    "footer";
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  background-image: url(assets/images/bggray.jpg);
+  background-repeat: repeat;
+  background-position: top left;
+  overflow-x: hidden;
+}
+
+.main {
+  grid-area: main;
+  padding: 1rem;
+}

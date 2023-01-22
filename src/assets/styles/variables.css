@@ -1,0 +1,13 @@
+:root {
+    /* COLOR VARIABLES */
+    --color-white: #fff;
+    --color-white-20: rgb(255 255 255 / 0.2);
+    --color-white-50: rgb(255 255 255 / 0.5);
+    --color-gray-light: rgb(160, 160, 160);
+    --color-gray-dark: rgb(50 50 50);
+    --color-gray-dark-20: rgb(50 50 50 / 0.2);
+    --color-gray-dark-40: rgb(50 50 50 / 0.4);
+    --color-black: #000;
+    --color-gold: #FFD700;
+    --color-gold-dark: #B59410;
+}

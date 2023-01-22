@@ -1,0 +1,96 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.title {
+    margin: 0;
+    font-size: 2rem;
+    color: var(--color-white);
+}
+
+.textbox {
+    padding: 0.15rem;
+}
+
+.garage-title,
+.page-title {
+    color: var(--color-gold);
+    text-shadow: 0 0 0.4rem var(--color-gray-dark);
+}
+
+.page-title {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+.create-race-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.create-race-wrapper h2, .create-race-wrapper p {
+    margin: 0;
+    color: var(--color-gold);
+}
+
+.car-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    border-bottom: dashed .15rem var(--color-white);
+}
+
+.car-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: .5rem 1rem;
+    margin-top: .5rem;
+    border: double 4px var(--color-gold);
+    background: var(--color-white-50);
+}
+
+.car-name {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    font-weight: bold;
+    color: var(--color-black);
+}
+
+.car-body {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.car-stop-btn {
+    margin: 0 1rem;
+}
+
+.car-div {
+    position: relative;
+    flex-grow: 1;
+    height: 5rem;
+}
+
+.car-img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.car-finish {
+    margin-right: 5rem;
+}

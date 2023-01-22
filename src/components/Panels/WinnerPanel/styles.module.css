@@ -1,0 +1,31 @@
+.winner-panel {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    width: 35rem;
+    height: 30rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 1px var(--color-white);
+    background-color: var(--color-gray-light);
+    box-shadow: 0 0 1rem var(--color-white);
+}
+
+.title {
+    color: var(--color-gold);
+    text-shadow: 0 0 .15rem var(--color-gray-dark);
+}
+
+.winner-name,
+.winner-time {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    color: var(--color-black);
+    text-shadow: 0 0 .15rem var(--color-white);
+}
