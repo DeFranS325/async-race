@@ -1,0 +1,8 @@
+export { GenerateCars } from './GenerateCars'
+export { NewCar } from './NewCar'
+export { UpdateCar } from './UpdateCar'
+export { RemoveCar } from './RemoveCar'
+export { NextPage } from './NextPage'
+export { PrevPage } from './PrevPage'
+export { StartRace } from './StartRace'
+export { ResetRace } from './ResetRace'

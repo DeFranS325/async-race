@@ -1,0 +1,1 @@
+export { WinnerPanel } from './WinnerPanel'

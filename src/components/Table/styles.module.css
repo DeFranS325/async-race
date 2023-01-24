@@ -1,0 +1,39 @@
+.table {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+.thead {
+    font-weight: bold;
+    background: var(--color-white);
+}
+
+.th {
+    cursor: pointer;
+}
+
+.th:hover {
+    background: var(--color-gold);
+}
+
+.th,
+.td {
+    padding: 1rem 3rem;
+}
+
+.td {
+    color: var(--color-black);
+    text-shadow: 0 0 .1rem var(--color-black);
+}
+
+.td:first-child {
+    font-weight: bold;
+}
+
+.tbody {
+    background: var(--color-white-50);
+}
+
+.tr {
+    font-weight: normal;
+}

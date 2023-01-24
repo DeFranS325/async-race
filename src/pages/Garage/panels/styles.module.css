@@ -1,0 +1,33 @@
+.create-car-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.create-car,
+.button-panel {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    width: 100%;
+}
+
+.button-panel {
+    justify-content: stretch;
+}
+
+.generate-btn {
+    height: 1.7rem;
+    flex-grow: 1;
+}
+
+.reset-btn,
+.race-btn {
+    height: 1.7rem;
+    flex: 1;
+}

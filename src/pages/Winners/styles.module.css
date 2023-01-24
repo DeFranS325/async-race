@@ -1,0 +1,35 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.winners-title,
+.page-title {
+    margin: 0;
+    color: var(--color-gold);
+    text-shadow: 0 0 0.4rem var(--color-gray-dark);
+}
+
+.title {
+    margin: 0;
+    font-size: 2rem;
+    color: var(--color-white);
+}
+
+.textbox {
+    padding: 0.15rem;
+}
+
+.colorbox {
+    width: 5rem;
+    height: 1.7rem;
+}
+
+.button {
+    width: 6rem;
+    height: 1.7rem;
+}
