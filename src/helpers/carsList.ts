@@ -4,7 +4,7 @@ export const carsList = [
         models: ['Model S']
     },
     {
-        name: 'Mersedes-Benz',
+        name: 'Mersedes',
         models: ['E65']
     },
     {
