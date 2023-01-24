@@ -25,6 +25,7 @@ export const TopPanel = (cars: ICar[], startButtons: HTMLButtonElement[], stopBu
         createCarBtn.disabled = false
         resetBtn.disabled = true
         generateBtn.disabled = false
+        raceBtn.removeAttribute(raceStartAttribute)
         ResetRace(cars, stopButtons, createCarBtn)
     })
 
